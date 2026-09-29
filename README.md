@@ -5,7 +5,7 @@ Official implementation of:
 **ADGT: Enhancing 3D human pose estimation with attention-driven graph-transformers**
 Shuo Yang, Anh Tuan Luu, Xuan Son Nguyen, Aymeric Histace, Bart Jansen, Hichem Sahli — *Journal of Visual Communication and Image Representation* 118 (2026) 104829
 
-ADGT is a frame-based 2D-to-3D pose lifting network that runs a GCN and a Transformer **in parallel** on shared hidden states, then fuses them with a query-key mechanism. On Human3.6M (CPN keypoints) it reaches 50.1 / 39.2 mm MPJPE / P-MPJPE with only 0.9M parameters and 27.8 MFLOPs.
+ADGT is a frame-based 2D-to-3D pose lifting network that runs a GCN and a Transformer **in parallel** on shared hidden states, then fuses them with a query-key mechanism.
 
 ## Method overview
 
