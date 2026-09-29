@@ -2,7 +2,7 @@ __pycache__/
 *.pyc
 data/*.npz
 checkpoint/
-checkpoints/
+checkpoints
 *.pth
 *.pth.tar
 *.bin
