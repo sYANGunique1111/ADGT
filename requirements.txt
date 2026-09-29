@@ -1,0 +1,5 @@
+torch>=2.0
+einops
+timm
+numpy
+progress
