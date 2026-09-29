@@ -40,13 +40,6 @@ Training uses subjects S1, S5, S6, S7, S8; evaluation uses S9, S11.
 
 Defaults match the paper: 5 layers, 96 channels, 3 hops, 8 registers, 100 epochs, batch size 256, Adam, single GPU. Learning rate: 8e-4 decayed by 0.95 every 2 epochs for CPN input; for ground-truth 2D input use `--keypoints gt --lr 0.001 --lr_gamma 0.9`. Checkpoints and `log.txt` are written to `checkpoints/adgt_h36m_cpn/`.
 
-## Evaluation
-
-```bash
-./eval.sh checkpoints/adgt_h36m_cpn/ckpt_best.pth.tar
-```
-
-Prints per-action and action-averaged MPJPE (Protocol #1) and P-MPJPE (Protocol #2), plus AUC / PCK.
 
 ## Citation
 
